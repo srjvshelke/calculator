@@ -14,11 +14,11 @@ const App:React.FC  =()=>{
   return (
     <>
       <div className="card flex justify-center items-center flex-row">
-        <button onClick={() => setCount(incrementcount)}>
+        <button onClick={incrementcount}>
           Increment
         </button>
         <text className='text-8xl'>{count}</text>
-        <button onClick={() => setCount(Decrementcount)}>
+        <button onClick={Decrementcount}>
           Decrement
         </button>
       </div>
